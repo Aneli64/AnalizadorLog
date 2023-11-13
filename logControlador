@@ -1,0 +1,6 @@
+Tipo_Operacion || DELETE_TABLE || Tabla eliminada completamente|| Hora: 16:42:53.906856700
+Tipo_Operacion || INSERT || Datos: [elian, deniz, 1, 2000.0, 30, 200.0, 23/10/20] || 16:43:21.260755800
+Tipo_Operacion || SELECT || Datos: elian, deniz, 1, 2000.00, 30, 200.00, 23/10/20,  || 16:43:25.415839
+Tipo_Operacion || INSERT || Datos: [maria, perez, 2, 3000.0, 40, 300.0, 14/09/10] || 16:43:53.142916400
+Tipo_Operacion || DELETE_REGISTRO || Usuario numero: 2 ha sido eliminado|| 16:44:07.848793900
+Tipo_Operacion || SELECT || Datos: elian, deniz, 1, 2000.00, 30, 200.00, 23/10/20,  || 16:44:22.029421300
