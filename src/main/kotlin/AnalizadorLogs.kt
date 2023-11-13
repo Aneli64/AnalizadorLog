@@ -27,4 +27,13 @@ class AnalizadorLogs {
                     "DELETE TABLE: ${numOp[3]} \n DELETE REGISTRO: ${numOp[4]}"
         }
 
+    fun opcionesErroneas(): String{
+        val listaOperaciones = mutableListOf<String>()
+        listaLogs.forEach { listaOperaciones.add(it.split("||")[1]) }
+        var contErrorMenu = 0
+
+        for (item in listaOperaciones) if (item.trim() == "ERROR") contErrorMenu++
+        return "Numero de errores al elegir opcion del menu: $contErrorMenu"
+    }
+
 }
